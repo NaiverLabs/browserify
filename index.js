@@ -1,5 +1,5 @@
 var path = require('path');
-var mdeps = require('module-deps');
+var mdeps = require('@naiverlabs/module-deps');
 var depsSort = require('deps-sort');
 var bpack = require('browser-pack');
 var insertGlobals = require('insert-module-globals');
